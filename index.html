@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title> Responsive Gallery</Title>
+        <meta name="viewport" content="width=device-width">
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper > div {
+    margin-bottom: 80px;
+}
+
+
+.photo {
+    min-height: 150px;
+    background-image: url(placeholder-image.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2a9df4;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.image-title p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(231, 211, 211);
+    line-height: 40px;
+}
+
+#lorem {
+    text-align: justify;
+}
+
+@media screen and (max-width: 319px) {
+
+    h1 {
+        font-size: 22px;
+    }
+    .image-title p {
+        font-size: 18px;
+    }
+    #lorem {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    h1 {
+        text-align: start;
+        margin-left: 0;
+    }
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .wrapper > div {
+        width: 30%;
+    }
+    
+    .image-title p {
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .main-wrapper {
+        width: 98%;
+    }
+    .wrapper > div {
+        width: 17%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    h1 {
+        font-size: 35px;
+    }
+    .image-title p {
+        font-size: 28px;
+    }
+    #lorem {
+        font-size: 16px;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <h1>Gallery heading</h1>
+                <div class="wrapper">
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>
+
+            <div>
+            <div class="photo"></div>
+            <div class="image-title">
+                <p>Image title</p>
+            </div>
+            </div>   
+        </div>       
+            <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nostrum aut unde praesentium soluta ipsam? Dolore ducimus quaerat officia? Omnis quidem veritatis eos dolorem incidunt tenetur harum iusto provident dignissimos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae temporibus nam, laborum deserunt voluptate totam fuga soluta tempora assumenda molestias ullam velit quia voluptates sit doloribus nobis perferendis sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nobis voluptate culpa voluptatum? Repellendus officiis nam numquam, eum architecto voluptatibus doloremque qui soluta earum laboriosam nemo animi obcaecati blanditiis harum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptate est. Molestias maxime iste eum ex, voluptatibus incidunt ut impedit atque enim, illo similique dolorem praesentium, officiis pariatur delectus eveniet?</p>
+        </div>
+    </body>
+</html>
